@@ -1,0 +1,8 @@
+{
+    "apps": [
+      {
+        "name": "webos-server",
+        "script": "./bin/www"
+      }
+    ]
+}

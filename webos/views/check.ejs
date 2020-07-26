@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= data.title %></title>
+  </head>
+  <body>
+    <script>
+        alert('<%=data.msg%>');
+        window.location.href = <%=data.code%> === 200 ? "https://localhost:8080" : "http://localhost:8080/register" ;
+    </script>
+  </body>
+</html>
